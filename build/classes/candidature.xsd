@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="candidature">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="Nom" type="xs:string" />
+          <xs:element name="Prenom" type="xs:string" />
+          <xs:element name="Email" type="xs:string" />
+          <xs:element name="Tel" type="xs:integer"/>
+          <xs:element name="Description" type="xs:string" />
+          <xs:element name="Experience" type="xs:string" />
+          <xs:element name="Disponibilite" type="xs:string" />
+          <xs:element name="Matiere" type="xs:string"/>
+          <xs:element name="PieceJointe" type="xs:string" />
+          <xs:element name="Tarif" type="xs:integer" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
