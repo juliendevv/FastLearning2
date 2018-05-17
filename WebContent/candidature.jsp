@@ -37,9 +37,9 @@
   <INPUT type="checkbox" name="choix2" value="2"> Mardi
   <INPUT type="checkbox" name="choix3" value="3"> Mercredi
   <INPUT type="checkbox" name="choix4" value="4"> Jeudi
-  <INPUT type="checkbox" name="choix5" value="4"> Vendredi
-  <INPUT type="checkbox" name="choix6" value="4"> Samedi
-  <INPUT type="checkbox" name="choix6" value="4"> Dimanche
+  <INPUT type="checkbox" name="choix5" value="5"> Vendredi
+  <INPUT type="checkbox" name="choix6" value="6"> Samedi
+  <INPUT type="checkbox" name="choix6" value="7"> Dimanche
   <br><br>
   <label for = "pjointe"> Vous pouvez déposer une pièce jointe ici : </label> <input type = "text" name = "pjointe" id = "pjointe">
   <br><br>
