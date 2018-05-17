@@ -11,7 +11,7 @@
 	<h2>Affichage des données de l'inscription</h2>
 	<form method="post" action="">
 	   
-	      <jsp:useBean id="test" class="projetweb.Inscription" scope="request" >
+	      <jsp:useBean id="test" class="classes.Utilisateur" scope="request" >
 	
 		</jsp:useBean>
 		<p> Votre inscription a bien été prise en compte 

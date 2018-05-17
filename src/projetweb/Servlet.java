@@ -16,6 +16,8 @@ import javax.xml.bind.Marshaller;
 
 import com.sun.xml.internal.ws.runtime.config.ObjectFactory;
 
+import classes.Utilisateur;
+
 
 /**
  * Servlet implementation class Annonce

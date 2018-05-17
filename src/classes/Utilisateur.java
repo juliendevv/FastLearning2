@@ -1,5 +1,9 @@
 package classes;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name="inscription")
+
 public class Utilisateur
 {
     private String Nom;
@@ -13,6 +17,12 @@ public class Utilisateur
     private String Date_de_naissance;
 
     private String Mail;
+    
+	
+	public Utilisateur() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
     public String getNom ()
     {
