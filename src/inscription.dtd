@@ -1,0 +1,9 @@
+<!ELEMENT Inscription (Liste_utilisateurs*)>
+<!ELEMENT Liste_utilisateurs (Utilisateur*)>
+<!ELEMENT Utilisateur (Prenom,Nom,Date_de_naissance,Mail,Numero_de_tel,Presentation)>
+<!ELEMENT Prenom (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Date_de_naissance (#PCDATA)>
+<!ELEMENT Mail (#PCDATA)>
+<!ELEMENT Numero_de_tel (#PCDATA)>
+<!ELEMENT Presentation (#PCDATA)>

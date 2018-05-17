@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE xml>
+
+<Application>
+  <Mise_a_disposition_intervenants>
+    <Intervenant> 
+      <Prenom>Julien</Prenom>
+      <Nom>Faucheux</Nom>
+      <Date_de_naissance>16/02/1996</Date_de_naissance>
+      <Mail>julien.faucheux@gmail.com</Mail>
+      <Numero_de_tel>0611223344</Numero_de_tel>
+      <Presentation>Bonjour...</Presentation>
+      <Domaines_de_connaissance>Mathématiques</Domaines_de_connaissance>
+      <Disponibilites>
+          <Dispo_debut>01/03/2018</Dispo_debut>
+          <Dispo_fin>27/03/2018</Dispo_fin>
+          <Mobilite_geographique>Nouvelle-Aquitaine</Mobilite_geographique>
+      </Disponibilites>
+      <Disponibilites>
+          <Dispo_debut>01/01/2018</Dispo_debut>
+          <Dispo_fin>29/01/2018</Dispo_fin>
+          <Mobilite_geographique>Gironde</Mobilite_geographique>
+      </Disponibilites>
+      <CV>/mac/Users/Desktop</CV>
+    </Intervenant>
+  </Mise_a_disposition_intervenants>
+</Application>
