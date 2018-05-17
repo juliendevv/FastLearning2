@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE xml>
+
+<Annonces>
+    <Annonce> 
+      <Nom>Faucheux</Nom>
+      <Prenom>Julien</Prenom>
+	  <date_debut>01/01/2018</date_debut>
+      <date_fin>29/01/2018</date_fin>
+      <tarif>20</tarif>
+      <nombre>15</nombre>
+      <matiere>Mathématiques</matiere>
+      <niveau>Lycée</niveau>
+      <description>Bonjour...</description>
+    </Annonce>
+      <Annonce> 
+      <Nom>Pakpak</Nom>
+      <Prenom>Dydy</Prenom>
+	  <date_debut>01/05/2018</date_debut>
+      <date_fin>29/01/2018</date_fin>
+      <tarif>10</tarif>
+      <nombre>15</nombre>
+      <matiere>Français</matiere>
+      <niveau>Lycée</niveau>
+      <description>Bonjour...</description>
+    </Annonce>
+</Annonces>

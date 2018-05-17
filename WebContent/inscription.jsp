@@ -28,13 +28,8 @@
   <label for = "pseudo">Pseudo</label> <input type = "text" name = "pseudo" id = "pseudo">
   <br><br>
   <label for = "motdepasse">Mot de passe</label> <input type = "text" name = "motdepasse" id = "motdepasse">
-  
-
 </fieldset>
-
 <input type = "submit" value = "Envoyer">
-
 </form>
-
 </body>
 </html>
