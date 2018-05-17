@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<candidatures>
+	<candidature>
+  		<Nom>Le Marquand</Nom>
+  		<Prenom>Sarah</Prenom>
+  		<Email>lmds@gmail.com</Email>
+  		<Tel>0627190666</Tel>
+  		<Description>Je suis la plus belle</Description>
+  		<Experience>Plus de 3 ans</Experience>
+  		<Disponibilite>Lundi</Disponibilite>
+  		<Matiere>Histoire</Matiere>
+  		<PieceJointe>CV/desktop</PieceJointe>
+  		<Tarif>12</Tarif>
+	</candidature>
+	<candidature>
+  		<Nom>Le Marquand</Nom>
+  		<Prenom>Raphaëlle</Prenom>
+  		<Email>lmdr@gmail.com</Email>
+  		<Tel>0627190686</Tel>
+  		<Description>la moche</Description>
+  		<Experience>Plus de 3 ans</Experience>
+  		<Disponibilite>Lundi</Disponibilite>
+  		<Matiere>Histoire</Matiere>
+  		<PieceJointe>CV/desktop</PieceJointe>
+  		<Tarif>12</Tarif>
+	</candidature>
+</candidatures>
