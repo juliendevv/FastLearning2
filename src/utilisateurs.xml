@@ -1,8 +1,7 @@
 <?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
 <!DOCTYPE xml>
 
-<Inscription>
-  <Liste_utilisateurs>
+<Utilisateurs>
     <Utilisateur>   
       <Prenom>Julien</Prenom>
       <Nom>Faucheux</Nom>
@@ -11,5 +10,12 @@
       <Numero_de_tel>0611223344</Numero_de_tel>
       <Presentation>Bonjour...</Presentation>
     </Utilisateur>
-  </Liste_utilisateurs>
-</Inscription>
+      <Utilisateur>   
+      <Prenom>Dylan</Prenom>
+      <Nom>PakPak</Nom>
+      <Date_de_naissance>05/05/1996</Date_de_naissance>
+      <Mail>dydy@gmail.com</Mail>
+      <Numero_de_tel>0611563344</Numero_de_tel>
+      <Presentation>Bonjour...</Presentation>
+    </Utilisateur>
+</Utilisateurs>
