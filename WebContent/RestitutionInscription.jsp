@@ -15,13 +15,15 @@
 	
 		</jsp:useBean>
 		<p> Votre inscription a bien été prise en compte 
-		</br>
-	    </br>
+		<br>
 	    Votre nom : 
-		<jsp:getProperty name="test" property = "nom"/>
-	    </br>
-	    Votre prenom :
-		<jsp:getProperty name="test" property = "prenom"/> </p>
+		<jsp:getProperty name="test" property = "nom"/> 
+ 	    <br> 
+	    Votre prenom : 
+		<jsp:getProperty name="test" property = "prenom"/> </p> 
+		
+
+
 	      
 	   
 	</form>

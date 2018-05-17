@@ -1,14 +1,23 @@
 package projetweb;
 
-
 import java.sql.Date;
 
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+// @XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement(name="inscription")
 public class Inscription {
 
-	public String nom;
-	public String prenom;
-	public Date date;
+	private String nom;
+	private String prenom;
+	private Date date;
 	
+	
+	public Inscription() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getNom() {
 		return this.nom;
 	}

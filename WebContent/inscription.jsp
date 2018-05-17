@@ -7,9 +7,9 @@
   <meta charset="utf-8" />
   <title>Formulaire Candidats</title>
 </head>
-<header>
+
   <h1>Inscription</h1>
-</header>
+
 <body>
 <form id = "form" name = "monForm" action="Servlet"  method="get">
 <fieldset>
@@ -20,7 +20,6 @@
   <label for = "pnom">Prénom</label> <input type = "text" name = "pnom" id = "pnom">
   <br><br>
   <label for = "DateN">Date de Naissance</label> <input type = "date" name = "DateN" id = "DateN">
-
   <br><br>
   <label for = "email">Adresse Mail</label> <input type = "text" name = "email" id = "email">
   <br><br>
