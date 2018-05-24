@@ -16,6 +16,7 @@ import javax.xml.bind.Marshaller;
 
 import com.sun.xml.internal.ws.runtime.config.ObjectFactory;
 
+import classes.EnregistrementCandidature;
 import classes.Utilisateur;
 
 
@@ -39,7 +40,7 @@ public class Servlet extends HttpServlet {
     public void init()throws ServletException{
     	// TODO Auto-generated constructor stub
     	super.init();
-    	System.err.println("oup's");
+    	System.err.println("Initialisé");
     }
 
 	/**
@@ -54,9 +55,9 @@ public class Servlet extends HttpServlet {
 		nvinstance.setPrenom(request.getParameter("pnom"));
 		nvinstance.setNom(request.getParameter("name"));
 
-		
-		
-		try {
+		EnregistrementCandidature eCandidature = new EnregistrementCandidature("inscrits.xml");
+		eCandidature.enregistre(nvinstance);
+		/*try {
 			// ObjectFactory objFactory = new ObjectFactory();
 			JAXBContext jaxbContext = JAXBContext.newInstance(Utilisateur.class);
 						
@@ -68,7 +69,7 @@ public class Servlet extends HttpServlet {
 		}
 		catch (Exception mEx) {
 			System.err.println(mEx.getMessage());
-		}
+		}*/
 		
 		/* Stockage des infos dans l'objet request */
 		request.setAttribute( "test", nvinstance ); 
