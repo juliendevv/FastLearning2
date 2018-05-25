@@ -1,6 +1,138 @@
-
-
-body{
- background-color: black; 
- color:#FFFF00;
+nav{
+	width : 100% ; 
+	background-color : Navy ; 
+	border-top : 2px double ;
+	border-bottom : 2px double ;
 }
+
+nav li {
+	display : inline ;
+	list-style-type : none ; 
+	float ; left; 
+}
+
+nav ul {
+	margin : 0px; 
+	padding : 0px;
+}
+
+nav a{
+	display : inline-block; 
+	text-decoration : underline; 
+	color : white ; 
+	padding : 20px 30px ;
+	font-size : 15 px; 
+	font-style : italic ; 
+	text-transform : uppercase ;
+}
+
+.table {
+	display : table; 
+	margin : 0 auto; 
+}
+
+.menu-ind:hover {
+	border-top : 5px solid #4c8 ; 
+}
+
+.menu-annonces:hover {
+	border-top : 5px solid #f1dc4f ; 
+}
+
+.menu-connection:hover {
+	border-top : 5px solid #0070bb ; 
+}
+
+.menu-inscription:hover {
+	border-top : 5px solid #e44d26 ; 
+}
+
+
+nav a:hover {
+	text-decoration ; underline ; 
+	font-style : normal ; 
+}
+
+header {
+	text-align : center;
+	background-color : Wheat ;
+	width : 100% ;
+	display : block ; 
+	heigth : 100 px;
+}
+
+html, body {
+	background-color : Wheat ;
+	padding : 10px ; 
+	margin : 10px ;
+	width : 9OOpx;
+}
+
+header h1 {
+	font-size : 40px; 
+	color : #000080 ; 
+	font-family : 'Georgia';
+	font-style : Italic ;
+	font-weigth : bold ;
+	text-align : center
+}
+
+header h2 {
+	font-family : 'Georgia' ;
+	text-align : center; 
+	text-size : 20px;
+}
+
+article {
+	width: auto; 
+	display : block ;
+	color : black ;
+}
+
+
+article p {
+	width : 60%; 
+	margin-rigth : 20px; 
+	float : left;
+	font-family : georgia ; 
+	font-size : 15px; 
+	text-align :  justify ;
+}
+
+p {
+	font-family : georgia ; 
+	font-size : 15px; 
+	text-align :  justify ;
+}
+
+
+input
+{
+	position: absolute;
+	left : 220px;
+}
+
+.bouton {
+	left : 15px;
+	background-color : red; 
+}
+
+footer {
+	width : 100% ;
+	padding-top : 30px;
+	height : 80 px; 
+	text-align : center; 
+	color : grey; 
+	text-size : 10px; 
+}
+
+fieldset{
+	background-color : #CCC; 
+	border : 2px solid Navy; 
+	-moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+	
+}
+
+

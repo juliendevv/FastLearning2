@@ -64,7 +64,7 @@ public class Servlet extends HttpServlet {
 			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, new Boolean(true));
 			
 		
-			marshaller.marshal(nvinstance, new File("inscrits.xml"));
+			marshaller.marshal(nvinstance, new File("./xml/utilisateurs.xml"));
 		}
 		catch (Exception mEx) {
 			System.err.println(mEx.getMessage());
